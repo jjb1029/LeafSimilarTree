@@ -2,6 +2,7 @@ import java.util.ArrayList;
  
 class Solution {
 	
+	// Class defintion of TreeNode, taken from LeetCode problem
 	public class TreeNode {
 	     int val;
 	     TreeNode left;
