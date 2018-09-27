@@ -1,16 +1,14 @@
 import java.util.ArrayList;
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-
+ 
 class Solution {
+	
+	public class TreeNode {
+	     int val;
+	     TreeNode left;
+	     TreeNode right;
+	     TreeNode(int x) { val = x; }
+	}
+	
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         ArrayList<Integer> left = new ArrayList<>();
         ArrayList<Integer> right = new ArrayList<>();
